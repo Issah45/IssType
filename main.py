@@ -11,6 +11,7 @@ class MyGUI(QMainWindow):
         self.action12pt.triggered.connect(lambda: self.change_size(12))
         self.action18pt.triggered.connect(lambda: self.change_size(18))
         self.action24pt.triggered.connect(lambda: self.change_size(24))
+        self.action32pt.triggered.connect(lambda: self.change_size(32))
 
         self.actionOpen.triggered.connect(self.open_file)
         self.actionSave.triggered.connect(self.save_file)
