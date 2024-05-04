@@ -1,2 +1,2 @@
 # IssType
-A Part Of Isssuite
+A simple text editor made with PyQt6.
